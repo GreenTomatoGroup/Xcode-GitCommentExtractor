@@ -1,8 +1,11 @@
 # Xcode-GitCommentExtractor
 ---
-
 ## What is this?
 A Xcode plugin for extracting all comment between two git tags.
+
+![menu](https://raw.githubusercontent.com/sakiwei/Xcode-GitCommentExtractor/master/Screenshot1.png)
+
+![settings](https://raw.githubusercontent.com/sakiwei/Xcode-GitCommentExtractor/master/Screenshot2.png)
 
 ## Requirements
 XCode 5.0+
