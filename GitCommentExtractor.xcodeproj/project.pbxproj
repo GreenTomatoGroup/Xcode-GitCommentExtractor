@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F11FE3C61A95ABCC0071C22E /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F11FE3C51A95ABCC0071C22E /* AppKit.framework */; };
+		F11FE3C81A95ABCC0071C22E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F11FE3C71A95ABCC0071C22E /* Foundation.framework */; };
+		F11FE3CD1A95ABCC0071C22E /* GitCommentExtractor.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = F11FE3CC1A95ABCC0071C22E /* GitCommentExtractor.xcscheme */; };
+		F11FE3D01A95ABCC0071C22E /* GitCommentExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = F11FE3CF1A95ABCC0071C22E /* GitCommentExtractor.m */; };
+		F11FE3D91A95AC050071C22E /* SettingWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F11FE3D71A95AC050071C22E /* SettingWindowController.m */; };
+		F11FE3DA1A95AC050071C22E /* SettingWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F11FE3D81A95AC050071C22E /* SettingWindowController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F11FE3C21A95ABCC0071C22E /* GitCommentExtractor.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitCommentExtractor.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		F11FE3C51A95ABCC0071C22E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		F11FE3C71A95ABCC0071C22E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		F11FE3CB1A95ABCC0071C22E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F11FE3CC1A95ABCC0071C22E /* GitCommentExtractor.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = GitCommentExtractor.xcscheme; path = GitCommentExtractor.xcodeproj/xcshareddata/xcschemes/GitCommentExtractor.xcscheme; sourceTree = SOURCE_ROOT; };
+		F11FE3CE1A95ABCC0071C22E /* GitCommentExtractor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GitCommentExtractor.h; sourceTree = "<group>"; };
+		F11FE3CF1A95ABCC0071C22E /* GitCommentExtractor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitCommentExtractor.m; sourceTree = "<group>"; };
+		F11FE3D61A95AC050071C22E /* SettingWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingWindowController.h; sourceTree = "<group>"; };
+		F11FE3D71A95AC050071C22E /* SettingWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingWindowController.m; sourceTree = "<group>"; };
+		F11FE3D81A95AC050071C22E /* SettingWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingWindowController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F11FE3C01A95ABCC0071C22E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11FE3C61A95ABCC0071C22E /* AppKit.framework in Frameworks */,
+				F11FE3C81A95ABCC0071C22E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F11FE3B91A95ABCC0071C22E = {
+			isa = PBXGroup;
+			children = (
+				F11FE3C91A95ABCC0071C22E /* GitCommentExtractor */,
+				F11FE3C41A95ABCC0071C22E /* Frameworks */,
+				F11FE3C31A95ABCC0071C22E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F11FE3C31A95ABCC0071C22E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F11FE3C21A95ABCC0071C22E /* GitCommentExtractor.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F11FE3C41A95ABCC0071C22E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F11FE3C51A95ABCC0071C22E /* AppKit.framework */,
+				F11FE3C71A95ABCC0071C22E /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F11FE3C91A95ABCC0071C22E /* GitCommentExtractor */ = {
+			isa = PBXGroup;
+			children = (
+				F11FE3CE1A95ABCC0071C22E /* GitCommentExtractor.h */,
+				F11FE3CF1A95ABCC0071C22E /* GitCommentExtractor.m */,
+				F11FE3D61A95AC050071C22E /* SettingWindowController.h */,
+				F11FE3D71A95AC050071C22E /* SettingWindowController.m */,
+				F11FE3D81A95AC050071C22E /* SettingWindowController.xib */,
+				F11FE3CA1A95ABCC0071C22E /* Supporting Files */,
+			);
+			path = GitCommentExtractor;
+			sourceTree = "<group>";
+		};
+		F11FE3CA1A95ABCC0071C22E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F11FE3CB1A95ABCC0071C22E /* Info.plist */,
+				F11FE3CC1A95ABCC0071C22E /* GitCommentExtractor.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F11FE3C11A95ABCC0071C22E /* GitCommentExtractor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F11FE3D31A95ABCC0071C22E /* Build configuration list for PBXNativeTarget "GitCommentExtractor" */;
+			buildPhases = (
+				F11FE3BE1A95ABCC0071C22E /* Sources */,
+				F11FE3BF1A95ABCC0071C22E /* Resources */,
+				F11FE3C01A95ABCC0071C22E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GitCommentExtractor;
+			productName = GitCommentExtractor;
+			productReference = F11FE3C21A95ABCC0071C22E /* GitCommentExtractor.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F11FE3BA1A95ABCC0071C22E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Sakiwei;
+				TargetAttributes = {
+					F11FE3C11A95ABCC0071C22E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = F11FE3BD1A95ABCC0071C22E /* Build configuration list for PBXProject "GitCommentExtractor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F11FE3B91A95ABCC0071C22E;
+			productRefGroup = F11FE3C31A95ABCC0071C22E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F11FE3C11A95ABCC0071C22E /* GitCommentExtractor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F11FE3BF1A95ABCC0071C22E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11FE3DA1A95AC050071C22E /* SettingWindowController.xib in Resources */,
+				F11FE3CD1A95ABCC0071C22E /* GitCommentExtractor.xcscheme in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F11FE3BE1A95ABCC0071C22E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11FE3D91A95AC050071C22E /* SettingWindowController.m in Sources */,
+				F11FE3D01A95ABCC0071C22E /* GitCommentExtractor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F11FE3D11A95ABCC0071C22E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		F11FE3D21A95ABCC0071C22E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		F11FE3D41A95ABCC0071C22E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = GitCommentExtractor/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		F11FE3D51A95ABCC0071C22E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = GitCommentExtractor/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F11FE3BD1A95ABCC0071C22E /* Build configuration list for PBXProject "GitCommentExtractor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F11FE3D11A95ABCC0071C22E /* Debug */,
+				F11FE3D21A95ABCC0071C22E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F11FE3D31A95ABCC0071C22E /* Build configuration list for PBXNativeTarget "GitCommentExtractor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F11FE3D41A95ABCC0071C22E /* Debug */,
+				F11FE3D51A95ABCC0071C22E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F11FE3BA1A95ABCC0071C22E /* Project object */;
+}
